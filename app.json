@@ -1,0 +1,59 @@
+{
+  "name": "Music Player",
+  "logo": "https://telegra.ph/file/23178ce3126fedae81036.png",
+  "description": "An Advanced Superfast & High Quality VC Music Player For Telegram",
+  "keywords": ["music", "voicechat", "telegram"],
+  "repository": "https://github.com/AdityaHalder/MusicPlayer",
+  "stack": "container",     
+  "env": {
+    "API_ID": {
+      "description": "Your App ID [Get it From @BotFather].",
+      "required": true
+    },
+    "API_HASH": {
+      "description": "Your Api Hash [Get it From @BotFather].",
+      "required": true
+    },
+    "BOT_OWNER": {
+      "description": "Music Player Bot Owner Username Without @ [Optional]",
+      "required": false,
+      "value": "AdityaHalder"
+    },
+    "BOT_USERNAME": {
+      "description": "Your Music Player Bot Username Without @",
+      "required": true
+    },
+    "BOT_TOKEN": {
+      "description": "Your Music Player Bot Token [Get it From @BotFather].",
+      "required": true
+    },
+    "BG_IMAGE": {
+      "description": "Custom Thumbnail For Music Player [Optional]",
+      "required": false,
+      "value": "https://telegra.ph/file/f6087082cc5840b11048f.png"
+    },
+    "DURATION_LIMIT": {
+      "description": "Duration Limit For Song Play. [Default - 10 Minutes].",
+      "required": true,
+      "value": "10"
+    },
+    "STRING_SESSION": {
+      "description": "Pyrogram String Session Get it From Replit.",
+      "required": true
+    },
+    "SUPPORT_GROUP": {
+      "description": "Support Group Username Without @ [Optional].",
+      "required": false,
+      "value": "AdityaDiscus"
+    },    
+    "UPDATES_CHANNEL": {
+      "description": "Updates Channel Username Without @ [Optional].",
+      "required": false,
+      "value": "AdityaServer"
+    },     
+    "SUDO_USERS": {
+      "description": "Give User ID Separated By Space",
+      "required": true
+    }
+  }
+}
